@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "70be8780-1df1-11ea-ad46-996f1991782c",
+    "_type": "search",
+    "_source": {
+      "title": "Details",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"kuery\",\"query\":\"kubernetes.namespace_name : default and kubernetes.labels.app.keyword : \\\"details\\\"  and log : \\\"GET /details\\\"\"},\"filter\":[]}"
+      }
+    }
+  }
+]

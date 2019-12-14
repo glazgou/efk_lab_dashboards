@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "7cf1cce0-1dbc-11ea-b5b2-ad6645ab0e56",
+    "_type": "search",
+    "_source": {
+      "title": "All_Services",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "kubernetes.labels.app"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"kuery\",\"query\":\"kubernetes.labels.app.keyword : \\\"reviews\\\" or kubernetes.labels.app.keyword :\\\"productpage\\\" or kubernetes.labels.app.keyword :\\\"ratings\\\" or kubernetes.labels.app.keyword : \\\"details\\\"  and kubernetes.labels.version.keyword :* \"},\"filter\":[]}"
+      }
+    }
+  }
+]
