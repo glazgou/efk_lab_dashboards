@@ -430,6 +430,28 @@ To see the searches included with this installation of Kibana, open the Discover
 page, and in the top menu, click **Open**. The list of searches includes logs
 from Google Kubernetes Engine apps, Kubelet, Docker, `kernel`, and others.
 
+### Import new searches
+
+## Step 1
+Before importing Kibana templates you need navigate to **Management > Index Patterns** and click Refresh button which is located in the right corner of the screen.
+
+Afterwards try to type in the search field `kubernetes.labels.app.keyword`
+If you can find it move to the next step otherwise wait arround 2-3 min and try again.
+
+## Step 2
+
+**Navigate to Management>Saved Objects**
+
+Choose **Search Tab** and click on the Import button, choose one search from the Search folder and Click Import, repeat that for all searches
+
+Choose **Visualization Tab** and click on the Import button choose one Visualization from the Visualization folder and Click Import repeat that for all Visualizations
+
+Choose **Dashboard Tab** and click on the Import button Choose Dashboard from the Dashboard folder and Click Import.
+
+## Step 3
+
+Navigate to **Dashboard** and choose **BookInfo_App** from the list.
+
 ### Scale the Elasticsearch cluster
 
 Scale the number of master node replicas by the following command:
