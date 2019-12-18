@@ -104,7 +104,7 @@ source exports
 Configure gcloud to use proper project / zone / region
 
 ```shell
-gcloud config set project <ip_testing>
+gcloud config set project <YOU_PROJECT_ID>
 gcloud config set compute/zone europe-west4-a
 gcloud config set compute/region europe-west4
 ```
