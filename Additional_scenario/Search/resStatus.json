@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "1d3cf400-2122-11ea-ae05-152596d5b6d0",
+    "_type": "search",
+    "_source": {
+      "title": "200 and 404",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"kuery\",\"query\":\"responseCode :* \"},\"filter\":[]}"
+      }
+    }
+  }
+]

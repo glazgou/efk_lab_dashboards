@@ -1,0 +1,31 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: details-404
+spec:
+  hosts:
+  - details
+  http:
+  - fault:
+      abort:
+        httpStatus: 404
+        percent: 50
+    route:
+    - destination:
+        host: details
+        subset: v1
+  - route:
+    - destination:
+        host: details
+        subset: v1
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: details-404
+spec:
+  host: details
+  subsets:
+  - name: v1
+    labels:
+      version: v1

@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "41400220-2122-11ea-ae05-152596d5b6d0",
+    "_type": "visualization",
+    "_source": {
+      "title": "Responses",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{},\"schema\":\"metric\",\"type\":\"count\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"field\":\"responseCode\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"size\":5},\"schema\":\"segment\",\"type\":\"terms\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":false,\"truncate\":100,\"values\":true},\"legendPosition\":\"right\",\"type\":\"pie\"},\"title\":\"Responses\",\"type\":\"pie\"}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "1d3cf400-2122-11ea-ae05-152596d5b6d0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"language\":\"kuery\",\"query\":\"\"}}"
+      }
+    }
+  }
+]

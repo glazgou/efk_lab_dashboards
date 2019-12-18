@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "732a1090-2123-11ea-ae05-152596d5b6d0",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Bookinfo_App_Errors",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":8,\"w\":48,\"h\":9,\"i\":\"3\"},\"embeddableConfig\":{},\"id\":\"d0eebcc0-1dbe-11ea-b5b2-ad6645ab0e56\",\"type\":\"visualization\",\"version\":\"6.3.2\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":24,\"y\":17,\"w\":24,\"h\":15,\"i\":\"4\"},\"embeddableConfig\":{},\"id\":\"f7278e70-1df1-11ea-ad46-996f1991782c\",\"type\":\"visualization\",\"version\":\"6.3.2\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":0,\"y\":17,\"w\":24,\"h\":15,\"i\":\"5\"},\"embeddableConfig\":{},\"id\":\"1af5d0f0-1df2-11ea-ad46-996f1991782c\",\"type\":\"visualization\",\"version\":\"6.3.2\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":0,\"y\":32,\"w\":24,\"h\":15,\"i\":\"6\"},\"embeddableConfig\":{},\"id\":\"90bc1d80-1df2-11ea-ad46-996f1991782c\",\"type\":\"visualization\",\"version\":\"6.3.2\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":24,\"y\":32,\"w\":24,\"h\":15,\"i\":\"7\"},\"embeddableConfig\":{},\"id\":\"eafad660-1df2-11ea-ad46-996f1991782c\",\"type\":\"visualization\",\"version\":\"6.3.2\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":0,\"y\":0,\"w\":48,\"h\":8,\"i\":\"8\"},\"embeddableConfig\":{},\"id\":\"cfeac730-1df3-11ea-ad46-996f1991782c\",\"type\":\"visualization\",\"version\":\"6.3.2\"},{\"panelIndex\":\"9\",\"gridData\":{\"x\":0,\"y\":47,\"w\":24,\"h\":15,\"i\":\"9\"},\"version\":\"6.3.2\",\"type\":\"visualization\",\"id\":\"41400220-2122-11ea-ae05-152596d5b6d0\",\"embeddableConfig\":{}}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  }
+]
